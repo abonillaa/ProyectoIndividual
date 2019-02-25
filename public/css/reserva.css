@@ -1,0 +1,60 @@
+
+.contenedor {
+    max-width: 1000px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.contenedor .contenedor_libro{
+    display: flow-root;
+    background: #dee1e4;
+    height: 300px;
+}
+
+.contenedor_libro img {
+    height: 150px;
+    width: 50%;
+}
+
+.descripcion_libro{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cont_titulo {
+    height: 55px;
+    margin-bottom: 5px;
+}
+.descripcion_libro p.titulo{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.descripcion_libro p.autor{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.descripcion_libro p.precio{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+    color: #10ac84;
+}
+
+.descripcion_libro .cont_reservar {
+    margin-top: 10px;
+}
+.descripcion_libro .cont_reservar label{
+    display: inline-block;
+   font-size: 15px;
+}
+.descripcion_libro .cont_reservar input[type=checkbox]{
+    display: inline-block;
+	width: 15px;
+	height: 15px;
+ }

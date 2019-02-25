@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/libros.css">
+    <title>Caoba - Libros</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <div class="nav_titulo">
+                    <a href="#">Caoba Tree</a>
+                </div>
+                <div class="nav_links">
+                    <a href="./libros.html">Libros</a>
+                    <a href="#">Editoriales</a>
+                    <a href="#">Sucursales</a>
+                    <a href="./reserva.html">Reservas</a>
+                    <a href="#">Comprobante</a>
+                    <a href="#">Cerrar Sesión</a>
+                </div>
+                
+            </nav>
+        </header>
+
+    <div class="titulo">
+        <h1>Libros</h1>
+    </div>
+
+    <div class="contenedor">
+
+        <div class="pos_filtrar">
+            <label for="txt_filtrar">Filtrar</label>
+            <input type="text" id="filtrar">
+        </div>
+
+        <div class="pos_boton">
+            <button type="button">Agregar</button>
+        </div>
+
+        <div class="pos_tabla_libros">
+            <table class="tabla_libros">
+                    <thead>
+                        <tr>
+                            <th>ISBN</th>
+                            <th>Libro</th>
+                            <th>Categoría</th>
+                            <th>Editorial</th>
+                            <th>Precio</th>
+                            <th>Autor</th>
+                            <th>Portada</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="isbn">9780525434290</td>
+                            <td>Origen</td>
+                            <td>Novela</td>
+                            <td>Planeta</td>
+                            <td>12500</td>
+                            <td>Dan Brown</td>
+                            <td><img src="imgs/origen.jpg" alt="portada"></td>
+                            <td>
+                                <i class="far fa-eye fa-2x"></i>
+                                <i class="far fa-edit fa-2x"></i>
+                                <i class="far fa-trash-alt fa-2x"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="isbn">9788495618603</td>
+                            <td>Código Da Vinci</td>
+                            <td>Novela</td>
+                            <td>Umbriel</td>
+                            <td>9500</td>
+                            <td>Dan Brown</td>
+                            <td><img src="imgs/davinci.jpg" alt="portada"></td>
+                            <td>
+                                <i class="far fa-eye fa-2x"></i>
+                                <i class="far fa-edit fa-2x"></i>
+                                <i class="far fa-trash-alt fa-2x"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="isbn">9788498382549</td>
+                            <td>El niño con el pijama de rayas</td>
+                            <td>Novela histórica</td>
+                            <td>Salamandra</td>
+                            <td>8500</td>
+                            <td>John Boyne</td>
+                            <td><img src="imgs/rayas.jpg" alt="portada"></td>
+                            <td>
+                                <i class="far fa-eye fa-2x"></i>
+                                <i class="far fa-edit fa-2x"></i>
+                                <i class="far fa-trash-alt fa-2x"></i>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="isbn">9780156013925</td>
+                                <td>El principito</td>
+                                <td>Novela</td>
+                                <td>Emecé Editores</td>
+                                <td>5500</td>
+                                <td>Antoine de Saint-Exupéry</td>
+                                <td><img src="imgs/principito.jpg" alt="portada"></td>
+                                <td>
+                                    <i class="far fa-eye fa-2x"></i>
+                                    <i class="far fa-edit fa-2x"></i>
+                                    <i class="far fa-trash-alt fa-2x"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="isbn">9780547928210</td>
+                                <td>The Fellowship of the Ring</td>
+                                <td>Novela</td>
+                                <td>Harper Collins</td>
+                                <td>15000</td>
+                                <td>J.R.R Tolkien</td>
+                                <td><img src="imgs/fellowship.jpg" alt="portada"></td>
+                                <td>
+                                    <i class="far fa-eye fa-2x"></i>
+                                    <i class="far fa-edit fa-2x"></i>
+                                    <i class="far fa-trash-alt fa-2x"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="isbn">9780441172719</td>
+                                <td>Dune</td>
+                                <td>Novela</td>
+                                <td>DeBolsillo</td>
+                                <td>11500</td>
+                                <td>Frank Herbert</td>
+                                <td><img src="imgs/dune.jpg" alt="portada"></td>
+                                <td>
+                                    <i class="far fa-eye fa-2x"></i>
+                                    <i class="far fa-edit fa-2x"></i>
+                                    <i class="far fa-trash-alt fa-2x"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="isbn">9780307474728</td>
+                                <td>Cien años de soledad</td>
+                                <td>Novela</td>
+                                <td>Diana</td>
+                                <td>10500</td>
+                                <td>Gabriel García Márquez</td>
+                                <td><img src="imgs/soledad.jpg" alt="portada"></td>
+                                <td>
+                                    <i class="far fa-eye fa-2x"></i>
+                                    <i class="far fa-edit fa-2x"></i>
+                                    <i class="far fa-trash-alt fa-2x"></i>
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+        </div>
+        
+    </div>
+</body>
+</html>

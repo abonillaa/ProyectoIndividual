@@ -1,0 +1,82 @@
+ * {
+     margin: 0;
+     padding: 0;
+     
+ }
+ 
+ html {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ body {
+     background: #eee;
+     color: #000;
+ }
+
+ header {
+     background: #10ac84;
+ }
+
+ header nav {
+     padding: 10px;
+     text-align: right;
+     font-family: 'Merriweather', serif;
+     display: flow-root;
+ }
+
+ header .nav_titulo{
+    float: left;
+    text-align: center;
+
+}
+
+header .nav_titulo a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;  
+    font-size: 35px;
+}
+
+header .nav_links{
+    padding-top: 10px;
+}
+
+header .nav_links a{
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+header .nav_links a:hover{
+    color: #FFA418;
+}
+
+ .titulo h1 {
+     font-size: 40px;
+     text-align: center;
+     padding: 20px 0;
+     font-family: 'Merriweather', serif;
+ }
+
+ .contenedor {
+     width: 90%;
+     max-width: 1100px;
+     margin: auto;
+     text-align: center;
+ }
+
+ .contenedor > div {
+     display: block;
+     padding: 20px;
+ }
+
+ /*Formularios*/
+ .contenedor input{
+    display: inline-block;
+    outline: none;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px solid #8395a7;
+    font-size: 15px;
+ }
