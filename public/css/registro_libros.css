@@ -59,8 +59,11 @@
     width: 50%;
     height: 30px;
     border-radius: 4px;
-    border: 1px solid #8395a7;
     font-size: 15px;
+}
+
+.pos_formulario .formulario_inputs select.borde {
+    border: 1px solid #8395a7;
 }
 
 #titulo_portada {
