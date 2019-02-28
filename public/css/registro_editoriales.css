@@ -1,0 +1,83 @@
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 200px 100px;
+    margin-top: 25px;
+}
+
+#titulo_formulario {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background: #10ac84;
+    color: #fff;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+#titulo_formulario p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+}
+
+.pos_formulario {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pos_formulario .formulario_inputs {
+    margin:  0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.pos_formulario .formulario_inputs div {
+    margin-bottom: 20px;
+}
+
+.pos_formulario .formulario_inputs label {
+    display: inline-block;
+    width: 20%;
+    margin-left: 15%;
+    color: #000;
+}
+
+/*Resto de estilos en general.css*/
+.pos_formulario .formulario_inputs input {
+    width: 50%;
+}
+
+.pos_formulario .formulario_inputs select {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.pos_formulario .formulario_inputs select.borde {
+    border: 1px solid #8395a7;
+}
+
+.pos_boton {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+.pos_boton button {
+    height: 50px;
+    width: 50%;
+    font-size: 15px;
+    background: #10ac84;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.pos_boton button:hover {
+    background: #008060;
+}

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/registro_sucursales.css">
-    <title>Caoba - Sucursales</title>
+    <link rel="stylesheet" href="css/registro_editoriales.css">
+    <title>Caoba - Editoriales</title>
 </head>
 <body>
     <header>
@@ -26,7 +26,7 @@
     </header>
 
     <div class="titulo">
-        <h1>Registro de Sucursales</h1>
+        <h1>Registro de Editoriales</h1>
     </div>
     <div class="contenedor">
         <div id="titulo_formulario">
@@ -50,38 +50,29 @@
                     </div>
 
                     <div>
-                        <label for="txt_telefono">Teléfono</label>
-                        <input type="text" id="txt_telefono" maxlength="9">
-                    </div>
-
-                    <div>
-                        <label for="txt_direccion">Dirección Exacta</label>
-                        <textarea id="txt_direccion" class="borde"></textarea>
+                        <label for="sel_pais">País</label>
+                        <select id="sel_pais" class="borde">
+                            <option value="">Seleccione un País...</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="España">España</option>
+                        </select>
                     </div>
                 </div>
             </form>
         </div>
 
-        <div id="titulo_direccion">
-            <p>Añade la dirección</p>
-        </div>
-
-        <div class="pos_direccion"> 
-            <div id="map"></div>
-        </div>
-
         <div class="pos_boton">
-            <button type="button" id="enviar_datos">Enviar Datos</button>
+            <button type="button" id="btn_enviar">Enviar Datos</button>
         </div>
+
     </div>
 
     
-    <script  defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQsEEmcwV_Wnjzf-kgi4wZcYFqEDREiw&callback=initMap"
-    type="text/javascript"></script>
-    <script src="./js/mapa.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/servicio_sucursal.js"></script>
-    <script src="js/controlador_sucursales.js"></script>
+    <script src="js/servicio_editoriales.js"></script>
+    <script src="js/controlador_editoriales.js"></script>
 </body>
 </html>
